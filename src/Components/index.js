@@ -1,0 +1,11 @@
+export { default as CardGreeting } from './CardGreeting';
+export { default as MenuSideBar } from './MenuSideBar';
+export { default as InfoPerson } from './InfoPerson';
+export { dafault as CardProject } from './CardProject';
+export { dafault as CardIndexPerson } from './CardIndexPerson';
+export { dafault as CardSkill } from './CardSkill';
+export { dafault as CardEdu } from './CardEdu';
+export { dafault as CardExperience } from './CardExperience';
+export { dafault as CardRecentWork } from './CardRecentWork';
+export { dafault as CardBlog } from './CardBlog';
+export { dafault as CardContact } from './CardContact';
