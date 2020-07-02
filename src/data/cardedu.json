@@ -1,0 +1,22 @@
+{
+    "firstly":{
+        "href":"collapseOne",
+        "expanded":"true",
+        "controls":"collapseOne",
+        "title":"Information Technology Degree",
+        "labelledby":"headingOne",
+        "content":"I graduated with a good degree in information technology at a college of transportation, located in Kinh Duong Vuong Street, District 6, in addition to a number of achievements in the process of studying at the school."
+    },
+    "second":
+    [
+        {
+            "href":"collapseTwo",
+            "expanded":"false",
+            "controls":"collapseTwo",
+            "title":"High School Diploma",
+            "labelledby":"headingTwo",
+            "content":"I graduated high school at Nguyen Huu Canh school, located in Binh Tan district"
+        }
+    ]
+    
+}

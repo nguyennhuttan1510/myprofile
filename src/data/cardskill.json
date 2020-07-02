@@ -1,0 +1,41 @@
+{
+    "titleContent":"This is my current ability index, in the near future it may continue to increase rapidly",
+    "indexSkill":[
+        {
+            "effect":"fadeInLeft",
+            "title":"Photoshop",
+            "color":"progress-bar color-1",
+            "valuenow":"60"
+        },
+        {
+            "effect":"fadeInRight",
+            "title":"React JS",
+            "color":"progress-bar color-2",
+            "valuenow":"85"
+        },
+        {
+            "effect":"fadeInLeft",
+            "title":"HTML",
+            "color":"progress-bar color-3",
+            "valuenow":"85"
+        },
+        {
+            "effect":"fadeInRight",
+            "title":"CSS",
+            "color":"progress-bar color-4",
+            "valuenow":"70"
+        },
+        {
+            "effect":"fadeInLeft",
+            "title":"SQL Database",
+            "color":"progress-bar color-5",
+            "valuenow":"90"
+        },
+        {
+            "effect":"fadeInRight",
+            "title":"GitHub",
+            "color":"progress-bar color-6",
+            "valuenow":"70"
+        }
+    ]
+}

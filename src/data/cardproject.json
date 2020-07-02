@@ -1,0 +1,20 @@
+[
+    {
+        "color":"services color-1",
+        "icon":"icon-bulb",
+        "titleFancy":"Innovative Ideas",
+        "content":"I always find newness in what I do, I love to create new things, so I never stereotype, always looking for new things"
+    },
+    {
+        "color":"services color-2",
+        "icon":"icon-data",
+        "titleFancy":"SQL Database",
+        "content":"I usually work with data to facilitate the retrieval of webside data I design for guests"
+    },
+    {
+        "color":"services color-3",
+        "icon":"icon-phone3",
+        "titleFancy":"Develop Webside",
+        "content":"I specialize in developing webside towards Front-End such as sales page, personal page, blog page ..."
+    }
+]

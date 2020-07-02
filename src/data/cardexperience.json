@@ -1,0 +1,24 @@
+[
+    {
+        "namework":"Develop Webside - Freelancer",
+        "iconcolor":"timeline-icon color-2",
+        "effect":"fadeInRight",
+        "content":"I developed the Website with the Intern position in the project, maybe called Freelancer, my specialty is Front-End, the project I'm doing is creating a website interface for phones written in ReactJS.",
+        "time":"2019-2020"
+    },
+    {
+        "namework":"Develop Application - Freelancer",
+        "iconcolor":"timeline-icon color-1",
+        "effect":"fadeInLeft",
+        "content":"I used to develop software, I had 1 year of working with the application and came up with many applications, such as cafe management, library management ..., but I left it.",
+        "time":"2018-2019"
+    },
+    {
+        "namework":"Sales Manager at An Hòa Company",
+        "iconcolor":"timeline-icon color-3",
+        "effect":"fadeInTop",
+        "content":"In addition to the professional work, I used to work as a sales manager, create product advertising events, I did this before I finished my major, in addition to a number of other jobs ...",
+        "time":"2016-2018"
+    }
+    
+]

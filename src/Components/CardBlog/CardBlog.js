@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const CardBlog = (props) => {
   return (
@@ -8,7 +9,8 @@ const CardBlog = (props) => {
         <div className="row">
           <div
             className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-            data-animate-effect="fadeInLeft">
+            data-animate-effect="fadeInLeft"
+          >
             <span className="heading-meta">Read</span>
             <h2 className="colorlib-heading">Recent Blog</h2>
           </div>
@@ -16,7 +18,8 @@ const CardBlog = (props) => {
         <div className="row">
           <div
             className="col-md-4 col-sm-6 animate-box"
-            data-animate-effect="fadeInLeft">
+            data-animate-effect="fadeInLeft"
+          >
             <div className="blog-entry">
               <a href="blog.html" className="blog-img">
                 <img
@@ -45,7 +48,8 @@ const CardBlog = (props) => {
           </div>
           <div
             className="col-md-4 col-sm-6 animate-box"
-            data-animate-effect="fadeInRight">
+            data-animate-effect="fadeInRight"
+          >
             <div className="blog-entry">
               <a href="blog.html" className="blog-img">
                 <img
@@ -74,7 +78,8 @@ const CardBlog = (props) => {
           </div>
           <div
             className="col-md-4 col-sm-6 animate-box"
-            data-animate-effect="fadeInLeft">
+            data-animate-effect="fadeInLeft"
+          >
             <div className="blog-entry">
               <a href="blog.html" className="blog-img">
                 <img
@@ -116,7 +121,5 @@ const CardBlog = (props) => {
     </section>
   );
 };
-
-CardBlog.propTypes = {};
 
 export default CardBlog;

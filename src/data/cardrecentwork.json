@@ -1,0 +1,38 @@
+[
+    {
+        "nameWork":"Nhân viên bán hàng",
+        "category":"Bán hàng",
+        "effect":"fadeInLeft",
+        "image":""
+    },
+    {
+        "nameWork":"Quản lý nhà hàng ",
+        "category":"Nhân sự",
+        "effect":"fadeInRight",
+        "image":""
+    },
+    {
+        "nameWork":"Quản lý điều hành",
+        "category":"Điều hành",
+        "effect":"fadeInTop",
+        "image":""
+    },
+    {
+        "nameWork":"Nhân viên tư vấn bán hàng",
+        "category":"Bán hàng",
+        "effect":"fadeInBottom",
+        "image":""
+    },
+    {
+        "nameWork":"Nhân viên điều hành quản lý sự kiện",
+        "category":"Điều hành",
+        "effect":"fadeInLeft",
+        "image":""
+    },
+    {
+        "nameWork":"Internship for project",
+        "category":"Develop Web",
+        "effect":"fadeInRight",
+        "image":""
+    }
+]

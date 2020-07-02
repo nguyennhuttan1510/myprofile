@@ -1,0 +1,26 @@
+[
+    {
+        "titleFancy":"Front-End",
+        "color":"services color-1",
+        "icon":"icon-bulb",
+        "effect":"fadeInLeft"
+    },
+    {
+        "titleFancy":"SQL DataBase",
+        "color":"services color-2",
+        "icon":"icon-globe-outline",
+        "effect":"fadeInRight"
+    },
+    {
+        "titleFancy":"Application",
+        "color":"services color-3",
+        "icon":"icon-data",
+        "effect":"fadeInTop"
+    },
+    {
+        "titleFancy":"PhotoShop",
+        "color":"services color-4",
+        "icon":"icon-phone3",
+        "effect":"fadeInBottom"
+    }    
+]
