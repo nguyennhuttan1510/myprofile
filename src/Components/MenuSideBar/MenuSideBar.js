@@ -13,7 +13,7 @@ const MenuSideBar = (props) => {
           className="author-img"
           style={{
             backgroundImage:
-              'url(https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.0-9/36329995_1924222264543544_3508503224405458944_o.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=Gm9bPrRRU0oAX_cN851&_nc_ht=scontent.fsgn5-6.fna&oh=1082b69c2c10cd406f9c20ae45567858&oe=5F22CE93)'
+              'url(https://scontent.fsgn3-1.fna.fbcdn.net/v/t1.0-9/36329995_1924222264543544_3508503224405458944_o.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=Gm9bPrRRU0oAX-ZA7_W&_nc_ht=scontent.fsgn3-1.fna&oh=8280571cf1ed190cd4b7c6ea8f7de61e&oe=5F22CE93)'
           }}
         />
         <h1 id="colorlib-logo">

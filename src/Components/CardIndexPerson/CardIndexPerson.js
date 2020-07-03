@@ -6,8 +6,13 @@ const CardIndexPerson = (props) => {
     <div
       id="colorlib-counter"
       className="colorlib-counters"
-      style={{ backgroundImage: 'url(images/cover_bg_1.jpg)' }}
-      data-stellar-background-ratio="0.5">
+      style={{
+        backgroundImage:
+          'url(https://media.ex-cdn.com/EXP/media.nhadautu.vn/files/news/2019/04/28/bao-in-tp-ho-chi-minh-dau-tau-kinh-te-112749.jpg)'
+        // width: '100%'
+      }}
+      data-stellar-background-ratio="0.5"
+    >
       <div className="overlay" />
       <div className="colorlib-narrow-content">
         <div className="row"></div>

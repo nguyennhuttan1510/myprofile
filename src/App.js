@@ -36,7 +36,6 @@ const App = () => {
           <CardSkill />
           <CardEdu />
           <CardExperience />
-          <CardRecentWork />
           <CardContact />
         </div>
       </div>
