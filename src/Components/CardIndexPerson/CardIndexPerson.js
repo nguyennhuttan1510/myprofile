@@ -21,7 +21,7 @@ const CardIndexPerson = (props) => {
             <span
               className="colorlib-counter js-counter"
               data-from={0}
-              data-to={309}
+              data-to={265}
               data-speed={5000}
               data-refresh-interval={50}
             />
@@ -31,7 +31,7 @@ const CardIndexPerson = (props) => {
             <span
               className="colorlib-counter js-counter"
               data-from={0}
-              data-to={356}
+              data-to={6}
               data-speed={5000}
               data-refresh-interval={50}
             />
@@ -41,7 +41,7 @@ const CardIndexPerson = (props) => {
             <span
               className="colorlib-counter js-counter"
               data-from={0}
-              data-to={30}
+              data-to={5}
               data-speed={5000}
               data-refresh-interval={50}
             />
@@ -51,11 +51,11 @@ const CardIndexPerson = (props) => {
             <span
               className="colorlib-counter js-counter"
               data-from={0}
-              data-to={10}
+              data-to={8}
               data-speed={5000}
               data-refresh-interval={50}
             />
-            <span className="colorlib-counter-label">Partners</span>
+            <span className="colorlib-counter-label">Partner</span>
           </div>
         </div>
       </div>
