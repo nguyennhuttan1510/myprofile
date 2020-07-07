@@ -1,6 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import datas from '../../data/cardedu.json';
+import PropTypes from 'prop-types';
 
 const CardEdu = (props) => {
   return (
@@ -62,7 +62,7 @@ const CardEdu = (props) => {
                 </div>
                 {datas.second.map((data, key) => {
                   return (
-                    <div className="panel panel-default">
+                    <div className="panel panel-default" key={key}>
                       <div
                         className="panel-heading"
                         role="tab"

@@ -1,8 +1,26 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import * as firebase from 'firebase';
+import { FirebaseConnect } from '../../FirebaseConnect';
 
 const CardContact = () => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [sub, setSub] = useState();
+  const [message, setMessage] = useState();
+  const [status, setStatus] = useState(false);
+
+  const addContact = () => {
+    setStatus(!status);
+    const date = new Date();
+    const connectData = firebase.database().ref('Contact');
+    connectData.push({
+      name: name,
+      email: email,
+      sub: sub,
+      message: message,
+      date: date.toString()
+    });
+  };
   return (
     <section className="colorlib-contact" data-section="contact">
       <div className="colorlib-narrow-content">
@@ -77,6 +95,9 @@ const CardContact = () => {
                       type="text"
                       className="form-control"
                       placeholder="Name"
+                      onChange={(e) => {
+                        setName(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="form-group">
@@ -84,6 +105,9 @@ const CardContact = () => {
                       type="text"
                       className="form-control"
                       placeholder="Email"
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="form-group">
@@ -91,6 +115,9 @@ const CardContact = () => {
                       type="text"
                       className="form-control"
                       placeholder="Subject"
+                      onChange={(e) => {
+                        setSub(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="form-group">
@@ -102,15 +129,34 @@ const CardContact = () => {
                       className="form-control"
                       placeholder="Message"
                       defaultValue={''}
+                      onChange={(e) => {
+                        setMessage(e.target.value);
+                      }}
                     />
                   </div>
                   <div className="form-group">
                     <input
-                      type="submit"
+                      type="reset"
                       className="btn btn-primary btn-send-message"
-                      defaultValue="Send Message"
+                      value="Send Message"
+                      onClick={() => {
+                        addContact();
+                      }}
                     />
                   </div>
+                  {status ? (
+                    <div className="alert alert-success" role="alert">
+                      <strong>Send message success</strong>
+                      <button
+                        type="button"
+                        className="close"
+                        data-dismiss="alert"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                  ) : null}
                 </form>
               </div>
             </div>
